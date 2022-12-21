@@ -1,0 +1,54 @@
+@use '../css/common/body';
+@use '../css/common/header';
+@use '../css/common/footer';
+
+/*
+================================================================
+Service
+================================================================
+*/
+
+.Service{
+    margin-top: 144px;
+    position: relative;
+}
+
+
+.Service ul li:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.Service ul li:nth-child(even) .Service__text{
+    margin-right: 32px;
+}
+
+.Service ul li{
+    display: flex;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.Service ul li .Service__text {
+    padding:10px ;
+}
+.Service ul li:nth-child(odd) img{
+    margin-right: 32px;
+}
+
+
+.Service ul li .Service__text dl .fee__list{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: flex-end;
+}
+
+
+
+/*
+================================================================
+Flow
+================================================================
+*/
+
+
