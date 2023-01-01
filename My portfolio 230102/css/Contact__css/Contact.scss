@@ -1,0 +1,103 @@
+@use '../css/common/body';
+@use '../css/common/header';
+@use '../css/common/footer';
+
+
+/*
+================================================================
+ContactPage
+================================================================
+*/
+
+input,textarea{
+    border: none;
+}
+
+.Contact__form{
+    width: 700px;
+    margin: 0 auto;
+
+
+        ul li {
+            margin-bottom: 60px;
+        }label{
+            display:block;
+            font-weight: bold;
+            margin-bottom: 10px;
+                span{
+                    color: #fff;
+                    background-color: #66C2F4;
+                    font-weight: normal;
+                    margin-left: 10px;
+                    padding:5px; 
+                }
+        }
+        ul li input{
+            width: 100%;
+            height: 50px;
+            background-color: #FAFAFA;
+
+        }
+
+        ul li textarea{
+            width: 100%;
+            background-color: #FAFAFA;
+            height: 270px;
+
+        }
+        
+
+        .submit__btn{
+            text-align: center;
+        }
+        
+        
+        .submit__btn input{
+            color: #fff;
+            width: 200px;
+            border-radius: 40px;
+            padding:20px;
+            text-align: center;
+            background-color:#66C2F4;
+            cursor: pointer;
+            
+                &:hover{
+                    opacity: .8;
+                }
+        }
+
+    }
+
+
+    @media screen and(max-width:960px) {
+        .header__menu{
+            display: none;
+            }
+        
+    
+        .sp__menu{
+            display: block;
+        }
+    }    
+
+@media (max-width:850px){
+    .Contact__form{
+        width: 90%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
